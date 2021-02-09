@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Astloch&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="/img/header/icon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Biryani:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="/footer_blok/footer_css/blok.css" />
+
+    <title>FiNAREttA</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_inner d-none d-md-flex">
+        <h1><a href="/index.html" class="logo">FiNAREttA </a></h1>
+      </div>
+      <div class="header-bg d-none d-md-flex">
+        <div class="container">
+          <nav class="nav d-flex justify-content-between">
+            <div class="search_link">
+              <div class="search-box">
+                <a class="search-btn"
+                  ><img src="/img/header/1.svg" /><i
+                    class="fa fa-search"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+                <input type="txt" class="search-txt" placeholder="Szukaj..." />
+              </div>
+            </div>
+            <div class="link d-flex">
+              <a class="nav_link" href="/news.html">nowości</a>
+              <a class="nav_link" href="/men.html">mężczyzna</a>
+              <a class="nav_link" href="/women.html">kobieta</a>
+              <a class="nav_link" href="/finna.html">o nas</a>
+            </div>
+            <div class="icon d-flex">
+              <div>
+                <button
+                  type="button"
+                  class="icon"
+                  data-toggle="modal"
+                  data-target="#SignModalCenter"
+                >
+                  <a class="icon_link"><img src="/img/header/2.svg" /></a>
+                </button>
+              </div>
+              <div
+                class="modal fade"
+                id="SignModalCenter"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="SignModalCenterTitle"
+                aria-hidden="true"
+              >
+                <div class="SignUp">
+                  <div
+                    class="modal-dialog modal-dialog-centered"
+                    role="document"
+                  >
+                    <div class="modal-content">
+                      <div class="x">
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="signup_title d-flex">
+                            <p>ZAŁOGUJ SIĘ</p>
+                          </div>
+                          <div class="signup_test d-flex">
+                            <p>Zostań uczestnikiem FiNAREttA</p>
+                          </div>
+                          <div class="signup_content">
+                            <label for="email"><b>E-mail</b></label>
+                            <input
+                              type="text"
+                              placeholder="Wprowadź e-mail"
+                              name="email"
+                              required
+                            />
+
+                            <label for="psw"><b>Hasło</b></label>
+                            <input
+                              type="password"
+                              placeholder="Wprowadź hasło"
+                              name="psw"
+                              required
+                            />
+
+                            <label class="remember">
+                              <input
+                                type="checkbox"
+                                checked="checked"
+                                name="remember"
+                                style="margin-bottom: 15px"
+                              />
+                              Pamiętaj mnie
+                            </label>
+
+                            <div class="clearfix">
+                              <button type="submit" class="signupbtn">
+                                Zaloguj się
+                              </button>
+                            </div>
+                            <div class="polityka">
+                              <a href="/footer_blok/pomoc/polityka.html"> Polityka prywatności</a>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <a class="icon_link"><img src="/img/header/3.svg" /></a>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="header_inner d-flex d-md-none">
+        <div class="w-100 d-flex justify-content-between pl-1 pr-1">
+          <div class="d-flex align-items-center">
+            <button type="button" class="icon_link icon_link-margin js-logo">
+              <img src="/img/header/menu.svg" />
+            </button>
+            <h1 class="logo">FiNAREttA</h1>
+          </div>
+          <div class="d-flex">
+            <div class="icon">
+              <a class="search_link"><img src="/img/header/1-mob.png" /></a>
+              <a class="icon_link"><img src="/img/header/2-mob.png" /></a>
+              <a class="icon_link"><img src="/img/header/3-mob.png" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bg header-mob d-flex d-md-none">
+        <div class="container">
+          <nav class="nav d-flex justify-content-between">
+            <div class="link d-flex flex-column">
+              <a class="nav_link" href="/news.html">nowości</a>
+              <a class="nav_link" href="/men.html">mężczyzna</a>
+              <a class="nav_link" href="/women.html">kobieta</a>
+              <a class="nav_link" href="/finna.html">o nas</a>
+            </div>
+            <button class="icon_link icon_cross js-logo">
+              <img src="/img/header/cross.svg" />
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="intro position-relative">
+        <div class="position-absolute text-above">
+          <h5 class="carousel_title"><span> POLITYKA PRYWATNOŚCI </span></h5>
+          <h5 class="carousel_text"><span> ochrona informacji Użytkowników serwisu FiNAREttA </span></h5>
+        </div>
+      </div>
+
+    <section>
+        <div class="container"  style="letter-spacing: 1px;">
+            <div><p style="padding-top: 50px;"><strong>Polityka prywatności</strong></p>
+                <p>Ochrona informacji dotyczących Użytkowników naszego Serwisu jest dla nas sprawą najwyższej wagi, w związku z tym dokładamy najwyższych starań, abyście czuli się bezpiecznie powierzając nam swoje dane osobowe przy korzystaniu z naszych stron internetowych. Niniejsza polityka prywatności wyjaśnia zasady i zakres przetwarzania przez nas waszych danych osobowych, przysługujące wam prawa i nasze obowiązki jako administratora danych.</p>
+                <p>Stosujemy najnowocześniejsze środki techniczne i rozwiązania organizacyjne zapewniające wysoki poziom ochrony przetwarzanych danych osobowych i zabezpieczenia ich przed dostępem osób nieupoważnionych.</p>
+                <p><strong>&nbsp;</strong></p>
+                <p><strong>Administratorem danych jest</strong>:</p>
+                <p>FINARETTA S.A. z siedzibą w Krakówie, ul. Ulica 39/44, wpisana do krajowego rejestru sądowego prowadzonego przez Sąd Rejonowy Kraków– Północ w Krakówie Wydział VII Gospodarczy KRS pod numerem KRS 000 (dalej: „FINARETTA”), kapitał zakładowy 3.704.846 PLN (opłacony w całości), REGON 000000000, NIP 000-00-00-000</p>
+                <p><strong>&nbsp;</strong></p>
+                <p><strong>Cel przetwarzania</strong></p>
+                <ul>
+                <li>FINARETTA przetwarza dane osobowe Użytkowników Serwisu, w celu prawidłowego wykonywania umów zawartych w ramach sklepu on-line poprzez serwis: <a href="http://www.finaretta.com/">www.finaretta.com</a> (dalej „Serwis”) Co oznacza, że dane te są potrzebne w szczególności do:</li>
+                </ul>
+                <p>- zarejestrowania się w Serwisie<br>- zawarcia umowy<br>- dokonania rozliczeń<br>- dostarczenia zamówionego przez Użytkownika towaru<br>- korzystania przez Użytkownika wszelkich uprawnień konsumenckich (np. odstąpienie od umowy, rękojmia).</p>
+                <ul>
+                <li>Jeśli wyraziłeś zgodę na otrzymywanie informacji o nowościach i promocjach wówczas FINARETTA przetwarza twoje dane w celu przesyłania ci własnych informacji handlowych dotyczących na przykład aktualnych trendów w modzie, promocji czy wyprzedaży.</li>
+                </ul>
+                <p>&nbsp;</p>
+                <p><strong>Rodzaj danych</strong></p>
+                <p>FINARETTA przetwarza następujące dane osobowe, których podanie jest niezbędne do:<br>1. zalogowania się w Serwisie:<br>- imię i nazwisko<br>- adres e-mail</p>
+                <p>2. Dokonywania zakupów w Serwisie:<br>- imię i nazwisko<br>- płeć (poprzez zaznaczenie formy zwracania się Pani/Pan)<br>- adres dostawy<br>- numer telefonu<br>- adres e-mail</p>
+                <p>3. Dane podawane przez Użytkownika opcjonalnie:<br>- data urodzenia<br>- PESEL (w przypadku żądania wystawienia faktury)<br>- NIP (w przypadku żądania wystawienia faktury zgłoszonego przez przedsiębiorcę)</p>
+                <p>4. W przypadku odstąpienia od umowy bądź uznania reklamacji, gdy zwrot należności następuje bezpośrednio na rachunek bankowy Użytkownika prosimy o podanie numeru rachunku w celu dokonania zwrotu należności.</p>
+                <p>&nbsp;</p>
+                <p><strong>Podstawa prawna przetwarzania</strong></p>
+                <p>Dane osobowe są przetwarzane zgodnie z przepisami Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r.</p>
+                <p>Twoje dane osobowe przetwarzamy za twoją zgodą, wyrażoną w chwili rejestracji w Serwisie oraz w chwili potwierdzenia dokonanej w Serwisie transakcji.</p>
+                <p>Wyrażenie zgody na przetwarzanie twoich danych osobowych jest całkowicie dobrowolne jednak brak zgody uniemożliwia zarejestrowanie się w Serwisie oraz dokonywania zakupów za pośrednictwem Serwisu.</p>
+                <p>W związku z przetwarzaniem przez nas twoich danych osobowych przysługują ci następujące prawa:</p>
+                <ol>
+                <li>W każdej chwili możesz wycofać swoją zgodę - bez podawania przyczyny. Żądanie może dotyczyć wskazanego przez Ciebie celu przetwarzania np. wycofanie zgody na otrzymywanie informacji handlowych ale też może dotyczyć wszystkich celów przetwarzania. Wycofanie zgody co do wszystkich celów przetwarzania spowoduje, że zostanie usunięte twoje konto Użytkownika w Serwisie a twoje dane nie będą przez nas przetwarzane. Wycofanie zgody nie wpłynie na dotychczas dokonane czynności.</li>
+                <li>W każdej chwili możesz żądać abyśmy usunęli twoje dane – bez podawania przyczyny. Żądanie usunięcia danych nie wpłynie na dotychczas dokonane czynności. Usunięcie danych oznacza, że zostanie usunięte twoje konto użytkownika w Serwisie a twoje dane nie będą przez nas przetwarzane.</li>
+                <li>W każdej chwili możesz wyrazić sprzeciw przeciwko przetwarzaniu twoich danych zarówno w całości jak i we wskazanym przez ciebie celu. Sprzeciw nie wpłynie na już dokonane czynności. Wniesienie sprzeciwu spowoduje usunięcie twojego konta Użytkownika w Serwisie a twoje dane nie będą przez nas przetwarzane.</li>
+                <li>Możesz zażądać abyśmy ograniczyli przetwarzanie twoich danych osobowych czy to przez określony czas czy w określonym zakresie – postąpimy zgodnie z twoją decyzją. Żądanie to nie wpłynie na dotychczas dokonane czynności.</li>
+                <li>W każdej chwili możesz zażądać abyśmy poprawili bądź sprostowali twoje dane osobowe. Możesz to też zrobić samodzielnie używając po zalogowaniu w Serwisie zakładki: MOJE DANE.</li>
+                <li>Możesz żądać abyśmy przekazali posiadane przez nas twoje dane do innego podmiotu. W tym celu należy skontaktować się z nami przez formularz zgłoszeniowy<em> </em>podając nazwę i adres podmiotu, do którego mamy przekazać twoje dane oraz ich zakres, tzn. które twoje dane mamy przekazać. Przekazanie nastąpi w formie elektronicznej po potwierdzeniu przez ciebie tego żądania. Potwierdzenie żądania jest potrzebne z uwagi na bezpieczeństwo twoich danych i uzyskanie pewności, że żądanie pochodzi o osoby uprawnionej.</li>
+                <li>W każdej chwili możesz zażądać od nas informacji o zakresie przetwarzania przez nas twoich danych osobowych.</li>
+                </ol>
+                <p>Mamy obowiązek poinformować cię nie później niż w ciągu miesiąca od otrzymania każdego z żądań o podjętych przez nas działaniach.</p>
+                <p>&nbsp;</p>
+                <p><strong>Czas przechowywania danych osobowych</strong></p>
+                <p>Twoje dane osobowe przechowujemy do czasu usunięcia konta Użytkownika w Serwisie. Usunięcie konta może nastąpić na Twoje żądanie ale również w przypadku wycofania przez Ciebie zgody na przetwarzanie Twoich danych, zgłoszenia sprzeciwu co do przetwarzania Twoich danych osobowych bądź zażądania przez Ciebie ich usunięcia.</p>
+                <p>W naszych systemach pozostaną jedynie informacje archiwalne o zawartych przez Ciebie transakcjach, których przechowywanie związane jest np. z przysługującymi ci roszczeniami np. z tytułu rękojmi a także w związku z obowiązującymi nas przepisami prawa.&nbsp;</p>
+                <p>&nbsp;</p>
+                <p><strong>Kontakt w sprawie danych osobowych</strong></p>
+                <p>Wszelkie zgłoszenia czy żądania dotyczące danych osobowych możesz zgłaszać do nas w wybrany przez siebie sposób:</p>
+                <ol>
+                <li>Wiadomości e-mail na adres: <a>privacy.pl@finaretta.com</a></li>
+                <li>Telefonicznie:&nbsp;000 000 000 (koszt wg. taryfy operatora)</li>
+                <li>Poprzez formularz kontaktowy dostępny w Serwisie</li>
+                <li>listownie na adres: FINARETTA S.A. ul. Ulica, 81-000, Kraków.</li>
+                </ol>
+                <div>&nbsp;</div>
+                <p><strong>Powierzenie przetwarzania danych</strong></p>
+                <p>FINARETTA może powierzać przetwarzanie danych osobowych podmiotom współpracującym z FINARETTA, w zakresie niezbędnym dla realizacji transakcji to jest na przykład w celu przygotowania zamówionego przez ciebie towaru oraz dostarczania przesyłek lub przekazywania informacji handlowych pochodzących od FINARETTA (ostatnie dotyczy Użytkowników, którzy wyrazili zgodę na otrzymywanie informacji handlowych).</p>
+                <p>Dane osobowe Użytkowników, poza celami wskazanymi w niniejszej Polityce Prywatności nie będą w żaden sposób udostępniane osobom trzecim, w tym w szczególności nie będą przekazywane innym podmiotom, w celu przesyłania materiałów marketingowych osób trzecich.</p>
+                <p>Dane osobowe Użytkowników Serwisu nie są przekazywane poza obszar Unii Europejskiej.</p>
+                <p>&nbsp;</p>
+                <p><strong>Powiadomienie o dostępności produktu</strong></p>
+                <p>Na twoje życzenie FINARETTA przesyła drogą elektroniczną informacje o dostępności wskazanych przez ciebie produktów. Warunkiem przesłania przez nas takiej informacji jest wyrażenie zgody na otrzymywanie na podany adres e-mail informacji handlowych o produktach sklepu internetowego oraz przetwarzanie danych osobowych przez FINARETTA. Podanie danych jest dobrowolne, jednakże brak zgody na przetwarzanie danych osobowych, uniemożliwia przesłanie informacji o dostępności produktu.</p>
+                <p>&nbsp;</p>
+                <p>Więcej informacji na temat praw przysługujących użytkownikowi w zakresie ochrony danych w związku z tworzeniem statystyk strony oraz możliwości skorzystania z nich bezpośrednio w interakcjach z serwisami społecznościowymi można znaleźć pod adresem:</p>
+                <ol>
+                    <ul class="blok-list-unstyled">
+                        <li>
+                          <div class="find_us_on">                
+                          <a href="https://www.facebook.com/profile.php?id=100004813845298" class="blok-text-nav"><img src="/img/footer/facebook-black.svg" width="15px"/></a>
+                          <a href="https://www.facebook.com/profile.php?id=100004813845298" class="blok-text-nav">Facebook</a>
+                        </div>
+                        </li>
+                        <li>
+                          <div class="find_us_on">                
+                            <a href="https://www.instagram.com/yulian.kortiak/" class="blok-text-nav"><img src="/img/footer/instagram-black.svg" width="15px"/></a>
+                            <a href="https://www.instagram.com/yulian.kortiak/" class="blok-text-nav">Instagram</a>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="find_us_on">                
+                            <a href="https://www.youtube.com/user/PolitechnikaKrakow" class="blok-text-nav"><img src="/img/footer/youtube-black.svg" width="15px"/></a>
+                            <a href="https://www.youtube.com/user/PolitechnikaKrakow" class="blok-text-nav">Youtube</a>
+                          </div>
+                        </li>
+                      </ul>
+            </ol>
+            </div>
+            <div class="end-img">
+                <img src="/img/footer/end.jpg" alt="" style="width: 100%;">
+            </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-footer text-center text-lg-start">
+        <div class="footer container p-4">
+          <div class="row footer_box">
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">POMOC</h5>
+  
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="/footer_blok/pomoc/kontakt.html" class="text-nav"
+                    >Kontakt</a
+                  >
+                </li>
+                <li>
+                  <a href="/footer_blok/pomoc/forma.html" class="text-nav"
+                    >Formy płatności</a
+                  >
+                </li>
+                <li>
+                  <a href="/footer_blok/pomoc/tabela.html" class="text-nav"
+                    >Tabele rozmiarowe</a
+                  >
+                </li>
+                <li>
+                  <a href="/footer_blok/pomoc/polityka.html" class="text-nav"
+                    >Polityka prywatności</a
+                  >
+                </li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">MARKA</h5>
+  
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="/finna.html" class="text-nav">O marce FiNEREttA</a>
+                </li>
+                <li>
+                  <a href="/footer_blok/marka/eco.html" class="text-nav"
+                    >Eco aware</a
+                  >
+                </li>
+                <li>
+                  <a href="/footer_blok/marka/kariera.html" class="text-nav"
+                    >Kariera</a
+                  >
+                </li>
+                <li>
+                  <a href="/footer_blok/marka/reg.html" class="text-nav"
+                    >Regulamin</a
+                  >
+                </li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">BĄDŹ Z NAMI:</h5>
+  
+              <ul class="list-unstyled">
+                <li>
+                  <div class="find_us_on">
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100004813845298"
+                      class="text-nav"
+                      ><img src="/img/footer/facebook.svg" width="15px"
+                    /></a>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100004813845298"
+                      class="text-nav"
+                      >Facebook</a
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="find_us_on">
+                    <a
+                      href="https://www.instagram.com/yulian.kortiak/"
+                      class="text-nav"
+                      ><img src="/img/footer/instagram.svg" width="15px"
+                    /></a>
+                    <a
+                      href="https://www.instagram.com/yulian.kortiak/"
+                      class="text-nav"
+                      >Instagram</a
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="find_us_on">
+                    <a
+                      href="https://www.youtube.com/user/PolitechnikaKrakow"
+                      class="text-nav"
+                      ><img src="/img/footer/youtube.svg" width="15px"
+                    /></a>
+                    <a
+                      href="https://www.youtube.com/user/PolitechnikaKrakow"
+                      class="text-nav"
+                      >Youtube</a
+                    >
+                  </div>
+                </li>
+                <li>
+                  <div class="find_us_on">
+                    <a href="https://pl.pinterest.com/" class="text-nav"
+                      ><img src="/img/footer/pinterest.svg" width="15px"
+                    /></a>
+                    <a href="https://pl.pinterest.com/" class="text-nav"
+                      >Pinterest</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase2">DOŁĄCZ TERAZ</h5>
+  
+              <p>
+                Dołącz do programu lojalnościowego i otrzymaj 10% rabatu + bezpłatną standardową dostawę na kolejne zakupy. Bądź na bieżąco z naszą ofertą i aktualnymi promocjami! Nie przegap okazji, ofert, rabatów i kuponów bonusowych!
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="header_inner">
+          <h1 class="footer_logo">FiNAREttA</h1>
+        </div>
+  
+        <div class="text_center p-3">© FiNAREttA 2020-2021</div>
+      </footer>
+      <!-- Footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
